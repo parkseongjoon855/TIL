@@ -1,1 +1,11 @@
-h1 {color: aqua;}
+h1 {background-color: aqua;}
+.p area {color: blueviolet;}
+.p .temperature {background-color: brown;}
+.p {color: red;}
+.h2 .subtitle {background-color: aqua;}
+.phumidity {color: chocolate;}
+.h2 .subtitle {background-color: aqua;}
+.p .dust {color: aqua;}
+.result {background-color: aqua;}
+#news {background-color: aqua;}
+#news {color: coral;}
