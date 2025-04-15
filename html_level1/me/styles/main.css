@@ -1,9 +1,62 @@
-#mobile_wrap {background-color: #34E062;}
-#monile_wrap .photo {}
+#mobile_wrap {
+    background-color: #34E062;/* #mobile_wrap */
+    width:440px; height:956px;/* #mobile_wrap */
+    text-align:center;/* 자식,자손 글꼴 통일 */
+}
+#mobile_wrap .photo {
+    margin:129px;
+    margin-bottom:47px;
+    display:inline-block;
+}
 #mobile_wrap a img {}
-#mobile_wrap h1 {}
-#mobile_wrap h1 span {}
-#mobile_wrap h2 {}
-#mobile_wrap .git {}
-#mobile_wrap .possbleskill {}
-#mobile_wrap .possbleskill li {}
+#mobile_wrap h1 {
+    font-size:1.563rem;
+    color:#796744;
+    font-weight:600;
+    line-height:1;
+    letter-spacing:-0.02rem;
+}
+#mobile_wrap h1 span {
+    font-size:1.563rem;
+    color:#796744;
+    font-weight:400;
+    line-height:1;
+    letter-spacing:0.02rem;
+}
+#mobile_wrap h2 {
+    font-size:1.rem;
+    font-weight:400;
+    letter-spacing:0.02;
+    line-height:1;
+    /* display:inline-block; */
+    margin-left:auto;
+    margin-right:auto;
+    width:265px;
+}
+#mobile_wrap .git {
+    width:265px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+#mobile_wrap .possbleskill {
+    font-size:1rem;
+    margin-top:107px;
+    width:265px;
+    letter-spacing:0.02;
+    line-height:1;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+}
+#mobile_wrap .possbleskill li {
+    font-size:1rem;
+    margin-top:107px;
+    line-height:1.8;
+    width:265px;
+    font-size:1rem;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+    letter-spacing:0.02.em;
+}
