@@ -56,14 +56,14 @@
 * 레이아웃 관련 요소에 `width,height` 속성 작성 시 영역 확인을 위한 `background-color`를 꼭 함께 작성해서 정확히 구분한다. 이때 색상은 쉬운 영역 구분을 위한 `aqua,lime,yellow,pink`등의 밝은 색상 위주로 사용한다. 영역 확인과 디자인 작업을 모드 마친 후 위 색상은 제거로 마무리 해야한다.
 * 실제 디자인에 들어가는 색상은 **rgba 또는 헥사코드**로 입력하고 테스트용으로 입력하는 임시 색상은 영문명으로 입력해야 한다.
 ### 자주 이용하는 CSS 속성 값과 기본값
-* `1letter-spacing`  
-* `line-height`
-* `font-size` 글씨 크기 변경
-* `color`  글씨 색깔 변경 
-* `background-color` 배경 색깔 적용
-* `width`
-* `height` 
-* `margin`  여백
-* `boder-radius`
-* `font-weight`
-* `font-family` 대표 글꼴의 문제가 생길시 대신 들어가는 글꼴
+* `1letter-spacing` 자간|0|`letter-spacing:-0.02rem;`
+* `line-height`   행간|100%|`line-height:1.5;`
+* `font-size`  글자크기|16px(1em)|`font-size:1.2rem;`
+* `color`  글자색상| color#f00; color:rgba(0,0,0,0.5)
+* `background-color` 배경색상|`background-color:#000;`
+* `width`    가로크기|`width:100px;`
+* `height`   세로크기|`height:200px;`
+* `margin`  여백|`margin-top:50px;`
+* `boder-radius` 모서리둥글기|`border-radius:10px;`
+* `font-weight` 글자굵기 400|`font-weight:800;`
+* `font-family` 글꼴설정|`font-family:'대표글꼴','보조글꼴'sans-serif;`
