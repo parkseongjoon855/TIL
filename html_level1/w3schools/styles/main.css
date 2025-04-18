@@ -1,51 +1,71 @@
 #wrap {
     background-color:#1B56FD ;
-    width:440px;
-    height:956px;
+    width:440px; height:956px;
     padding-left:15px;
     padding-right:15px;
 }
 #wrap h1 {
-    font-size: 2.5rem;
+    padding-top:90px;
+    margin-bottom:30px;
+    font-size:2.5rem;
     font-weight:700;
 }
-#wrap > p {
-    font-size:1rem;
-} /* #wrap 모든자식 p */
+#wrap h1>p {}
 #wrap h1+p {
-} /* #wrap의 h1 옆에 p */
-#wrap #login_frm {
+    margin-bottom:176px;
 }
+#wrap #login_frm {}
 #wrap #login_frm h2 {
-    background-color:#0118D8;
-    color:#B5ECEE;
+    font-size:1.375rem;
+    font-weight:600;
+    margin-bottom:13px;
 }
-#wrap#login_frm p {
-    background-color:#0118D8;
-    color: #B5ECEE;
-}
-#wrap #login_frm p input {
-    background-color: #1B56FD;
-    color: #B5ECEE;
-}
-#wrap #login_frm p {
-    background-color: #0118D8;
-}
-#wrap #login_frm h2 {}
 #wrap #login_frm p {}
+#wrap #login_frm p.user_in {
+    margin-bottom:40px;
+}
+#wrap #login_frm p.user_btn {
+    margin-bottom:10px;
+}
+#wrap #login_frm p input::placeholder {}
 #wrap #login_frm p input {
-    background-color: #0118D8;
-    color: #B5ECEE;
+    width:410px;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border: 1px solid #000;
 }
 #wrap #login_frm p #login_btn {
-    background-color: #0118D8;
+    width:410px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius:5px;
+    background-color: #1B56FD; color: #84C7D9;
+    font-weight:600; font-size:0.875rem;
 }
-#wrap #login_frm p #login_google {
-    background-color:#0118D8;
-    color: #B5ECEE;
+#wrap #login_frm p .login_btn_google {
+    width:410px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius:5px;
+    border:#1B56FD;
+    display:block; text-align:center;
+    font-weight:600; font-size:0.875rem;
 }
-
 #wrap #login_frm+p {
-
+    font-size:0.75rem;
+    letter-spacing:0;
+    font-weight:300;
+    text-align:center;
+    color: #84C7D9;
+    margin-top:190px;
 }
-#wrap #login_frm+p a {}
+#wrap #login_frm+p a {
+    color: #84C7D9;
+    font-size:0.75rem;
+}
