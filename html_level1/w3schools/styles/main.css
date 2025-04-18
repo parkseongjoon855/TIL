@@ -1,61 +1,71 @@
 #wrap {
     background-color:#1B56FD ;
     width:440px; height:956px;
-    padding-left:15px;
-    padding-right:15px;
+    /* padding-left:15px;
+    padding-right:15px; */
+    padding:0 15px 0 15px ;
 }
 #wrap h1 {
-    padding-top:90px;
-    margin-bottom:30px;
+    /* padding-top:90px;
+    margin-bottom:30px; */
+    padding:90px 0 0 0;
+    margin:0 0 30px 0;
     font-size:2.5rem;
     font-weight:700;
 }
 #wrap h1>p {}
 #wrap h1+p {
-    margin-bottom:176px;
+   /*  margin-bottom:176px; */
+    margin:0 0 176px 0;
 }
 #wrap #login_frm {}
 #wrap #login_frm h2 {
     font-size:1.375rem;
     font-weight:600;
-    margin-bottom:13px;
+    /* margin-bottom:13px; */
+    margin:0 0 13px 0;
 }
 #wrap #login_frm p {}
 #wrap #login_frm p.user_in {
-    margin-bottom:40px;
+    /* margin-bottom:40px; */
+    margin:0 0 40px 0;
 }
 #wrap #login_frm p.user_btn {
-    margin-bottom:10px;
+    /* margin-bottom:10px; */
+    margin:0 0 10px 0;
 }
 #wrap #login_frm p input::placeholder {}
 #wrap #login_frm p input {
     width:410px;
-    padding-right:20px;
+    /*  padding-right:20px;
     padding-left:20px;
     padding-top:15px;
-    padding-bottom:15px;
+    padding-bottom:15px; */
     border: 1px solid #000;
+    padding:15px 20px 15px 20px;
 }
 #wrap #login_frm p #login_btn {
     width:410px;
-    padding-left:20px;
+    /*  padding-left:20px;
     padding-right:20px;
     padding-top:15px;
-    padding-bottom:15px;
+    padding-bottom:15px; */
     border-radius:5px;
     background-color: #1B56FD; color: #84C7D9;
     font-weight:600; font-size:0.875rem;
+    padding:15px 20px 15px 20px;
 }
 #wrap #login_frm p .login_btn_google {
     width:410px;
-    padding-left:20px;
+    /* padding-left:20px;
     padding-right:20px;
     padding-top:15px;
-    padding-bottom:15px;
+    padding-bottom:15px; */
     border-radius:5px;
     border:#1B56FD;
     display:block; text-align:center;
     font-weight:600; font-size:0.875rem;
+    padding:15px 20px 15px 20px;
 }
 #wrap #login_frm+p {
     font-size:0.75rem;
@@ -63,7 +73,8 @@
     font-weight:300;
     text-align:center;
     color: #84C7D9;
-    margin-top:190px;
+    /* margin-top:190px; */
+    margin:190px 0 0 0;
 }
 #wrap #login_frm+p a {
     color: #84C7D9;

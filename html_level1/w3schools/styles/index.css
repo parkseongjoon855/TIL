@@ -6,15 +6,17 @@
    text-align:center; /* 수평 가운데정렬 */
 }
 #wrap h1 {
-    padding-top:227px;
-    padding-bottom:113px;
+    /* padding-top *//* :227px; */
+    /* padding-bottom *//* :113px; */
+    padding:227px 0 113px 0;
 }
 #wrap h1 img {}
 #wrap .btn_wrap {
     width:300px;;
     /* 블록의 너비값을 부모보다 작게 설정했을때 블록을 가운데정렬하고싶다면? */
-    margin-left:auto;
-    margin-right:auto;
+    /* margin-left:auto;
+    margin-right:auto; */
+    margin:0 auto;
     text-align: left;/* btn_wrap의 인라인 자식, 자손 왼쪽정렬 */
 }
 #wrap .btn_wrap a {
@@ -30,8 +32,9 @@
     font-size:0.875rem;
 }
 #wrap .btn_wrap .sign_up_btn {
-    margin-top:16px;
-    margin-bottom:20px;
+    /* margin-top:16px;
+    margin-bottom:20px; */
+    margin:16px 0;
     height:40px;
     line-height:40px;
     color: #86E6F0;
