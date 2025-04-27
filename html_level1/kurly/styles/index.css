@@ -1,0 +1,71 @@
+/* index.css */
+main {
+    width:1000px;
+    background-color:#eee;
+    margin:0 auto;
+}
+main  h1{}
+main  h1 a{}
+main  h1 a img{}
+/* ==========================가입약관 */
+/* ===========================가입정보입력 */
+main .law {
+    background-color:#fff;
+    height:180px;width:90%;
+    overflow:auto;
+    /* 부모 크기보다 자식이 클 경우 auto자동으로 스크롤을 보이고 부모 크기보다 자식이 작거나 같으면 auto자동으로 스크롤을 숨기는 속성값 */
+    padding:16px;margin:30px auto;
+}
+main .law h2 {
+    margin:0 0 30px;
+}
+main .law h3 {
+    margin:0 0 15px;
+}
+main .law p {
+    line-height:1.5;
+    margin:20px 0;
+}
+/* ============================가입버튼 */
+main #login_frm {}
+main #login_frm  .member_info {
+    /* width:1000px;  */
+    overflow:hidden;
+}
+main #login_frm .member_info dt {
+    width:200px;
+    float:left; clear:both;
+    background-color:lime;
+}
+main #login_frm .member_info dd {
+    float:left;
+}
+main #login_frm .member_info dd:nth-of-type(2n+1) {
+    background-color:yellow;
+    width:650px;
+}
+main #login_frm .member_info dd:nth-of-type(2n) {
+    background-color:skyblue;
+    width:150px;
+}
+main #login_frm .member_info dt em {}
+main #login_frm .member_info dd input[name^=user] {
+    background-color:#fff;
+    border:1px solid #ccc;
+    border-radius:4px;
+    width:90%; padding:12px;
+}
+main #login_frm .member_info dd:nth-of-type(2n) .btn {
+    background-color:red;
+}
+main #login_frm .member_info dd#authentication_btn {
+    background-color:coral;
+}
+main #login_frm .member_info dd select[name^=news] {}
+main #login_frm .member_info dd select[name^=news] option {}
+main #login_frm .member_info dd select[name*=phone] {}
+main #login_frm .member_info dd #adress_search_btn+span {}
+main #login_frm .member_info dd input[name=gender] +label {}
+main #login_frm .member_info dd input[name^=birthday] {}
+main #login_frm .btn {}
+main #login_frm .btn #sign_up_btn {}
