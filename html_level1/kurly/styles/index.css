@@ -35,17 +35,14 @@ main #login_frm  .member_info {
 main #login_frm .member_info dt {
     width:200px;
     float:left; clear:both;
-    background-color:lime;
 }
 main #login_frm .member_info dd {
     float:left;
 }
 main #login_frm .member_info dd:nth-of-type(2n+1) {
-    background-color:yellow;
     width:650px;
 }
 main #login_frm .member_info dd:nth-of-type(2n) {
-    background-color:skyblue;
     width:150px;
 }
 main #login_frm .member_info dt em {}
@@ -55,17 +52,85 @@ main #login_frm .member_info dd input[name^=user] {
     border-radius:4px;
     width:90%; padding:12px;
 }
+main #login_frm .member_info dd:nth-of-type(2n) {
+    text-align:right;
+}
 main #login_frm .member_info dd:nth-of-type(2n) .btn {
-    background-color:red;
+    background-color:#5f0080; color:#fff;
+    width:90%; height:45px; border-radius:5px;
 }
-main #login_frm .member_info dd#authentication_btn {
-    background-color:coral;
+main #login_frm .member_info dd:nth-of-type(2n) .btn:hover {
+    filter:brightness(110%);
 }
-main #login_frm .member_info dd select[name^=news] {}
+main #login_frm .member_info dd #authentication_btn {
+    background-color:#ccc; 
+}
+main #login_frm .member_info dd select[name^=news] {
+    width:60px; border:1px solid #ccc; border-radius:4px;
+    padding:4px; font-size:0.875rem; height:50px; outline:none;
+    float:left;
+    margin-right:5px;
+    background:#fff url(../images/ico_down_16x10.png) no-repeat 95% center / 10px;
+}
 main #login_frm .member_info dd select[name^=news] option {}
-main #login_frm .member_info dd select[name*=phone] {}
-main #login_frm .member_info dd #adress_search_btn+span {}
-main #login_frm .member_info dd input[name=gender] +label {}
-main #login_frm .member_info dd input[name^=birthday] {}
-main #login_frm .btn {}
-main #login_frm .btn #sign_up_btn {}
+main #login_frm .member_info dd input[name*=phone] {
+    float:left;
+    width:calc(90% - 65px);
+}
+main #login_frm .member_info dd #adress_search_btn {
+    border:1px solid #5f0080;
+    background-color:#fff; width:90%; 
+    padding:12px 0; border-radius:4px;
+}
+main #login_frm .member_info dd #adress_search_btn+span {
+    display:block; color:#aaa;
+}
+main #login_frm .member_info .gender_g {text-align:center;}
+main #login_frm .member_info dd input[name=gender] {display:none;}
+main #login_frm .member_info dd input[name=gender] + label  {
+    /* 비활성화 디자인 */
+    background-image:url(../images/check_state.svg);
+    background-repeat:no-repeat;
+    background-size:17px; 
+    background-position:0 3px;
+    padding-left:35px;
+    margin-right:20px;
+}
+main #login_frm .member_info dd input[name=gender] + label:last-of-type {margin-right:0;}
+main #login_frm .member_info dd input[name=gender]:checked + label {
+    /* 활성화 디자인 */
+    background-image:url(../images/check_state_on.png);
+}
+main #login_frm .member_info .gender_g ~ dd {text-align:center;}
+main #login_frm .member_info dd:nth-last-of-type(2) {
+    background-color:#fff;
+    width:calc(650px * 0.9);
+    border:1px solid #5f0080;
+    border-radius:4px;
+    padding:12px 0 ;
+}
+main #login_frm .member_info dd input[name^=birthday] {
+    text-align:center;
+    width:60px;
+}
+main #login_frm .member_info dd:nth-last-of-type(2) span::after {
+    content: '/';
+    display:inline-block;
+    font-size:14px; color:#aaa; margin:0 3px; 
+}
+main #login_frm .member_info dd:nth-last-of-type(2) span:last-child::after {
+    display:none;
+}
+main #login_frm >.btn {
+    text-align:center;
+    margin:50px 0 0;
+}
+main #login_frm .btn #sign_up_btn {
+    width:300px; padding:14px; 
+    background-color:#5f0080; color:#fff;
+    border:1px solid #5f0080;
+    border-radius:8px
+}
+main #login_frm .btn #sign_up_btn:hover {
+    filter:brightness(110%)
+}

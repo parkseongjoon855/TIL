@@ -54,15 +54,16 @@
                     <span>배송지에 따라 상품 정보가 달라질 수 있습니다.</span></dd>
                 <dd></dd>
                 <dt>성별</dt>
-                <dd><input type="radio" name="gender" value="male" id="male">남자<label for="male"></label> 
-                    <input type="radio" name="gender" value="female" id="female">여자<label for="female"></label> 
-                    <input type="radio" name="gender" value="gender_none" id="gender_none">선택안함<label for="gender_none"></label></dd>
+                <dd class="gender_g">
+                    <input type="radio" name="gender" value="male" id="male"><label for="male">남자</label> 
+                    <input type="radio" name="gender" value="female" id="female"><label for="female">여자</label> 
+                    <input type="radio" name="gender" value="gender_none" id="gender_none"><label for="gender_none">선택안함</label></dd>
                 <dd></dd>
                 <dt>생년월일</dt>
-                <dd><input type="number" name="birthday_year" placeholder="yyyy">
-                    <input type="number" name="birthday_month" placeholder="mm">
-                    <input type="number" name="birthday_day" placeholder="dd"></dd>
-                <dd></dd>
+                <dd><span><input type="number" name="birthday_year" placeholder="yyyy"></span>
+                    <span><input type="number" name="birthday_month" placeholder="mm"></span>
+                    <span><input type="number" name="birthday_day" placeholder="dd"></span>
+                </dd><dd></dd>
             </dl>
             <div class="btn">
                 <button type="submit" id="sign_up_btn">가입하기</button>
